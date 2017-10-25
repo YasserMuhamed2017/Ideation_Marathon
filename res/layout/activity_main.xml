@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.yassermuhamed.ideationmarathon.MainActivity">
+
+    <ImageView
+        android:src="@drawable/download5"
+        android:layout_width="wrap_content"
+        android:layout_height="112dp"
+        android:id="@+id/imageView"
+        android:layout_marginBottom="19dp"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:text="Buy Product"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#1A237E"
+        android:layout_marginLeft="44dp"
+        android:layout_marginBottom="11dp" />
+
+    <Button
+        android:layout_marginLeft="40dp"
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="less than 10K" />
+
+    <Button
+        android:layout_marginLeft="40dp"
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="more than 10K"
+        android:layout_marginBottom="8dp" />
+    <EditText
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Give me your feedback"
+        android:id="@+id/editText" />
+
+</LinearLayout>

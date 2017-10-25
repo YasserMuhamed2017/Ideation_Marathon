@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- These are the options displayed in the gender drop-down Spinner -->
+    <string-array name="array_gender_options">
+        <item>@string/ABS</item>
+        <item>@string/PLA</item>
+        <item>@string/PLA_WOOD</item>
+        <item>@string/BET</item>
+        <item>@string/ALUMINUM_PLA</item>
+        <item>@string/NILON</item>
+    </string-array>
+</resources>

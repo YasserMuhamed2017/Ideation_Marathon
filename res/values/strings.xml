@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Environmental Fill</string>
+    <string name="category_gender">Filament Type :</string>
+
+    <string name="ABS">ABS</string>
+    <string name="PLA">PLA</string>
+    <string name="PLA_WOOD">PLA WOOD</string>
+    <string name="BET">BET</string>
+    <string name="ALUMINUM_PLA">ALUMINUM PLA</string>
+    <string name="NILON">NILON</string>
+</resources>
